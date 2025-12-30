@@ -128,6 +128,17 @@ Response:
 - **Database**: PostgreSQL (conversations, messages)
 - **Cache/Queue**: Redis + BullMQ
 - **LLM**: Cerebras AI (llama-3.3-70b)
+- **Testing**: Jest + Supertest
+
+## Testing
+
+```bash
+# Run all tests
+npm test
+
+# Run with coverage
+npm test -- --coverage
+```
 
 ## Project Structure
 
@@ -142,6 +153,7 @@ server/
 │   ├── middlewares/   # Rate limiting, error handling
 │   ├── config/        # Environment config
 │   └── db/            # Database client & schema
+├── test/              # Test files
 └── dist/              # Compiled JavaScript
 ```
 
