@@ -43,7 +43,7 @@ const STORE_KNOWLEDGE = `
      - Sunday: Closed
    
    • Contact Methods:
-     - Email: support@store.com (response within 24 hours)
+     - Email: support@spurnow.com (response within 24 hours)
      - Live Chat: Available during support hours
 
 💳 **PAYMENT OPTIONS**
