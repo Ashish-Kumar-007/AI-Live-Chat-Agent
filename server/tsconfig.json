@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "lib": ["ES2020"],
+    "outDir": "./dist",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    "types": ["node"],
+    "skipLibCheck": true,
+
+    "baseUrl": "./src",
+    "paths": {
+      "@api/*": ["api/*"],
+      "@services/*": ["services/*"],
+      "@db/*": ["db/*"],
+      "@auth/*": ["auth/*"],
+      "@cache/*": ["cache/*"],
+      "@queues/*": ["queues/*"],
+      "@middlewares/*": ["middlewares/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
