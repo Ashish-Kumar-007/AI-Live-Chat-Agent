@@ -120,9 +120,9 @@ npm run dev
 ```
 
 **Access:**
-- Frontend: http://localhost:3001
-- Backend API: http://localhost:3000
-- Health Check: http://localhost:3000/health
+- Frontend: http://localhost:3001 || https://ai-live-chat-agent-psi.vercel.app/ (LIVE URL)
+- Backend API: http://localhost:3000 || https://ai-live-chat-agent-pf21.onrender.com (LIVE URL)
+- Health Check: http://localhost:3000/health || https://ai-live-chat-agent-pf21.onrender.com/health (LIVE URL)
 
 ## 📡 API Endpoints
 
